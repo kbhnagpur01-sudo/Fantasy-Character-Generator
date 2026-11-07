@@ -1,0 +1,6 @@
+{
+  "name": "Fantasy Character Creator",
+  "description": "An interactive fantasy character generator for instant character names and classes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

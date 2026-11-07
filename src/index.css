@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cinzel: "Cinzel", serif;
+  --font-decorative: "Cinzel Decorative", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0c0908;
+}
+
+.alchemist-grain {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.06) 1px, transparent 0),
+                    radial-gradient(rgba(16, 185, 129, 0.04) 1px, transparent 0);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
